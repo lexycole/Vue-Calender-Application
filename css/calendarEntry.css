@@ -1,0 +1,39 @@
+#calendar-entry {
+  background: #FFF;
+  border: 1px solid #42b883;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#calendar-entry .calendar-entry-note input {
+  width: 200px;
+  font-weight: 600;
+  border: 0;
+  border-bottom: 1px solid #CCC;
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#calendar-entry .calendar-entry-note input:focus {
+  outline: none;
+}
+
+#calendar-entry .calendar-entry-note .calendar-entry-day {
+  color: #42b883;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+#calendar-entry .calendar-entry-note .calendar-entry-day .bold {
+  font-weight: 600;
+}
+
+#calendar-entry .calendar-entry-note .submit {
+  display: block;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=calendarEntry.css.map */
